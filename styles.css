@@ -64,6 +64,24 @@ header {
 	background-color: #497882;
 	padding: 15px 20px;
 }
+.site-logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+  }
+  
+.site-logo img {
+	width: 45px;
+	height: 45px;
+	object-fit: contain;
+  }
+  
+.site-logo h1 {
+	margin: 0;
+	color: white;
+	font-size: 2rem;
+  }
 .nav-bar {
 	display: flex;
 	justify-content: space-between;
